@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView[] dots;
     private int[] layouts;
     private TextView net;
-    private Button btnSkip, btnNext;
+    private Button btnSkip;
+    private Button btnNext;
     private PrefManager prefManager;
 
     @Override
