@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
-    private TextView net;
     private Button btnSkip;
     private Button btnNext;
     private PrefManager prefManager;
