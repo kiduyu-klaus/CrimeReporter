@@ -18,6 +18,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
@@ -118,6 +119,11 @@ public class MainActivity extends AppCompatActivity {
     ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
 
         @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT);
+        }
+
+        @Override
         public void onPageSelected(int position) {
             addBottomDots(position);
 
@@ -134,12 +140,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public void onPageScrolled(int arg0, float arg1, int arg2) {
-
-        }
-
-        @Override
-        public void onPageScrollStateChanged(int arg0) {
+        public void onPageScrollStateChanged(int state) {
+            Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT);
 
         }
     };
