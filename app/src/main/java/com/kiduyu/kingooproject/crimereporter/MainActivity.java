@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(MainActivity.this, MapsActivity.class));
+        startActivity(new Intent(MainActivity.this, PlacesActivity.class));
         finish();
     }
 
