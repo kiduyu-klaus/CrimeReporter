@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // making notification bar transparent
+        changeStatusBarColor();
         setContentView(R.layout.activity_main);
         prefManager = new PrefManager(this);
       /*  if (!prefManager.isFirstTimeLaunch()) {
@@ -56,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         // adding bottom dots
         addBottomDots(0);
-        // making notification bar transparent
-        changeStatusBarColor();
+
 
         myViewPagerAdapter = new MyViewPagerAdapter();
         viewPager.setAdapter(myViewPagerAdapter);
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(MainActivity.this, PlacesActivity.class));
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
         finish();
     }
 
@@ -150,11 +151,9 @@ public class MainActivity extends AppCompatActivity {
      * Making notification bar transparent
      */
     private void changeStatusBarColor() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.TRANSPARENT);
-        }
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
     }
 
     /**
