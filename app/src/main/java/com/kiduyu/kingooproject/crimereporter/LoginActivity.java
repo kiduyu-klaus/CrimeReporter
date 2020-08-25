@@ -19,5 +19,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void clickLogin(View view) {
+        startActivity(new Intent(this,DashboardActivity.class));
     }
 }

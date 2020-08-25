@@ -156,6 +156,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     /**
      * View pager adapter
      */

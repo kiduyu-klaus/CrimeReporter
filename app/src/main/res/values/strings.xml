@@ -57,4 +57,29 @@
         <item>Near kingongo Prisons</item>
         <item>Near Naivas Supermarket</item>
     </string-array>
+    <string name="types_of_crimes_4">\n\nEmbezzlement \n\nOne would not mention crime in Kenya without mentioning that of those who use funds or resources set aside for use by a large group for their personal interests. The most affected people in this bracket are usually politicians and other public office holders who are often evicted from office for ‘inappropriate use of funds’. The problem with this social ailment is that no one really seems to carry out the punishment for the offense.</string>
+    <string name="types_of_crimes_3">\n\nArmed robberies \n\nWhen guns land in the wrong hands, people suffer and pay for it. Cases of people who were mugged at gunpoint are a popular story to most Kenyans. Although it is not easy to acquire a license to own arms, thugs have their sources, including stealing or even worse, loaning guns from police officers.</string>
+    <string name="types_of_crimes_2">\n\nFraud \n\nOnce in a while, one hears cases of people who were tricked by fellow colleagues or neighbours into giving their hard earned cash with the promise of getting something in return. From creating jobs to promotions and such, Kenyans are known to fall easily into fraud crimes as they try to use shortcuts to get favours.</string>
+
+    <string name="types_of_crimes_1">\n\nHouse break-ins \n\nA big percentage of Kenyans do not have access to arms. This means that when others plan and invade house armed with as little as one pistol (at times fake), the house owners surrender and watch thieves leave with their belongings. For ages, people have had their houses broken into, during the day and at night, in their presence or absence. Poor investment in surveillance and security systems makes this kind of crime easy to occur.</string>
+    <string name="types_of_crimes_5">\n\nMob justice\n\n
+
+There is one thing that Kenyans are known to carry out fast and without second thoughts. Beating up a suspect in public is not new in the streets. People are known to pounce on an alleged lawbreaker so fast that even the police can hardly save the situation. From stones to big sticks, Kenyans will beat up a thief or such to death within minutes, not caring if they are breaking a rule themselves by denying justice a chance.
+\n\n
+Massive looting
+\n\n
+Kenyans are known to demand their rights by protesting in the streets. This activity always a gateway to looting where people just walk in numbers into businesses or homes and leave with belongings. Shops are major victims of this crime as the looting occurs mainly in the streets. Property worth millions is lost in this crime but not much is done to stop it.
+\n\n
+Cattle Rustling
+\n\n
+There are communities in the country who believe in herding in large numbers. They believe that one’s wealth is measured by the size of one’s herd. This has made some feel the need to attack and raid neighboring communities and drive herds away in an attempt to grow the size of theirs. The activity is common among these communities, with some getting grave at the point of rustlers or victims losing their lives.
+\n\n
+Human trafficking
+\n\n
+Many people believe that human trafficking only occurs when one ‘sell’ another human being into an outside state. However, the crime occurs even inside Kenya where laborers, mostly children are moved from rural to urban areas in the promise of employment. Most of this victims always end up working under harsh conditions with no means to get back home.
+\n\n
+Carjacking
+\n\n
+Common in major towns, the act of walking to someone’s car and ordering them out in an attempt to drive away with their car is not new in Kenya. Many people have lost their lives or bear bad scars from incidents when gun-wielding attackers order them out of their car and they resist. As much as the country had a police force in place, bad surveillance helps many carjackers walk away scot-free.</string>
+    <string name="what_is_a_crime">In ordinary language, a crime is an unlawful act punishable by a state or other authority.The term crime does not, in modern criminal law, have any simple and universally accepted definition, though statutory definitions have been provided for certain purposes. The most popular view is that crime is a category created by law; in other words, something is a crime if declared as such by the relevant and applicable law. One proposed definition is that a crime or offence (or criminal offence) is an act harmful not only to some individual but also to a community, society, or the state ("a public wrong"). Such acts are forbidden and punishable by law.</string>
 </resources>
